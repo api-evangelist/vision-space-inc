@@ -1,8 +1,28 @@
 aid: vision-space-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vision-space-inc.png
 name: Vision Space Inc.
-description: Vision Space Inc. is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Vision Space Inc. (VisionSpace) is a South Korean company building Physical AI
+  robot simulation software for automation in the logistics and manufacturing
+  sectors. Its TESSERACT product implements logistics and manufacturing sites as
+  digital twins, visualizing process data and predicting operational efficiency
+  through AI-based simulation, while its TARS product delivers real-time 3D
+  monitoring that integrates and manages data from equipment and robots in a
+  unified 3D control dashboard. The company was surfaced as a portfolio company
+  of 500 Global and added to the API Evangelist network. As of this enrichment
+  pass VisionSpace publishes a marketing website only and exposes no public
+  developer API, documentation, developer portal, or GitHub organization.
 url: https://raw.githubusercontent.com/api-evangelist/vision-space-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Robotics
+- Simulation
+- Digital Twin
+- Physical AI
+- Manufacturing
+- Logistics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/vision-space-inc-domain-security.yml
 - type: Website
   url: https://visionspace.co.kr
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vision-space-inc.png
-name: Vision Space Inc.
+name: Vision Space
 description: >-
   Vision Space Inc. (VisionSpace) is a South Korean company building Physical AI
   robot simulation software for automation in the logistics and manufacturing
@@ -68,3 +68,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-legal-name: Vision Space Inc.
